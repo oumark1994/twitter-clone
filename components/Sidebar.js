@@ -40,7 +40,7 @@ const Sidebar = () => {
     <DotsHorizontalIcon className='h-5 xl:ml-8 hidden xl:inline'/>
     </div>
     </>):(
-    <button  onClick={signIn}>Sign in</button>
+    <button className="bg-blue-400 text-white rounded-full w-28 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline"  onClick={signIn}>Sign in</button>
    )}
     </div>
   )
